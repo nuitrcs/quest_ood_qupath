@@ -1,11 +1,11 @@
 ---
-name: Example VNC App
+name: QuPath
 icon: fa://desktop
 category: Interactive Apps
 subcategory: GUIs
 role: batch_connect
 description: |
-  This app will launch the [Example VNC App] GUI on the [Quest cluster].
+  This app will launch the [QuPath] GUI on the [Quest cluster].
 
-  [Example VNC App]: https://services.northwestern.edu/TDClient/30/Portal/KB/ArticleDet?ID=2234
+  [QuPath]: https://qupath.readthedocs.io/en/stable/
   [Quest cluster]: https://www.it.northwestern.edu/departments/it-services-support/research/computing/quest/index.html
