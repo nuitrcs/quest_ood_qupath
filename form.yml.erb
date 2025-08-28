@@ -36,10 +36,11 @@ form:
 attributes:
   version:
     widget: select
-    label: "<My Application> version"
-    help: "What version of <My Application> would you like to launch"
+    label: "QuPath version"
+    help: "What version of QuPath would you like to launch"
     options:
-      - [ "<My Application> <Version>", "<FULL-PATH-TO-CONTAINER>" ]
+      - [ "QuPath 0.6.0", "/projects/a9009/hsc945/sing_containers/QuPath-0.6.0.sif" ]
+      - [ "QuPath 0.6.0 with SamAPI", "/projects/a9009/hsc945/sing_containers/QuPath-0.6.0-SamAPI.sif" ]
 
   bc_num_hours:
     label: "Wall Time (in number of hours)"
@@ -117,7 +118,7 @@ attributes:
 
   job_name:
     label: "Name of the Job"
-    value: "SOME JOB"
+    value: "QuPath_Job"
 
   raw_data:
     label: "Account associations for use by JavaScript"
