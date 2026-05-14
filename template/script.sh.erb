@@ -59,9 +59,11 @@ fi
 set -x
 ### Place Command To Run Program Below Here ###
 #
+<%- if context.version == "/software/2025/qupath/QuPath-0.6.0-TF-2.16.1.sif" %>
 eval "$(/miniconda/bin/conda shell.bash hook)" && \
 	conda activate samapi && uvicorn samapi.main:app --workers 2 &
 sleep 100
+<%- end %>
 /QuPath/bin/QuPath
 
 
